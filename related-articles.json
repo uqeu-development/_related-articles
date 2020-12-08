@@ -1,0 +1,65 @@
+[
+    {
+        "Content ID": "airism-face-mask",
+        "server": "content",
+        "release Date": "20 September 2020",
+        "expiry Date": "20 November 2021",
+        "imgURL": "https://via.placeholder.com/200x200",
+        "regions": "ALL",
+        "related": "3dknit, heattech-women, comfort-beauty"
+    },
+    {
+        "Content ID": "comfort-beauty",
+        "server": "page",
+        "release Date": "20 August 2020",
+        "expiry Date": "31 January 2021",
+        "imgURL": "https://via.placeholder.com/200x200",
+        "regions": "ALL",
+        "related": ""
+    },
+    {
+        "Content ID": "3dknit",
+        "server": "content",
+        "release Date": "",
+        "expiry Date": "31 January 2021",
+        "imgURL": "https://via.placeholder.com/200x200",
+        "regions": "ALL",
+        "related": ""
+    },
+    {
+        "Content ID": "jeans-women",
+        "server": "page",
+        "release Date": "27 August 2020",
+        "expiry Date": "9 February 2021",
+        "imgURL": "https://via.placeholder.com/200x200",
+        "regions": "ALL",
+        "related": "heattech-women, comfort-beauty"
+    },
+    {
+        "Content ID": "heattech-women",
+        "server": "page",
+        "release Date": "",
+        "expiry Date": "30 April 2021",
+        "imgURL": "https://via.placeholder.com/200x200",
+        "regions": "ALL",
+        "related": ""
+    },
+    {
+        "Content ID": "jeans-men",
+        "server": "content",
+        "release Date": "27 August 2020",
+        "expiry Date": "9 February 2021",
+        "imgURL": "https://via.placeholder.com/200x200",
+        "regions": "ALL",
+        "related": "heattech-men, airism-face-mask"
+    },
+    {
+        "Content ID": "heattech-men",
+        "server": "content",
+        "release Date": "",
+        "expiry Date": "",
+        "imgURL": "",
+        "regions": "",
+        "related": ""
+    }
+]
