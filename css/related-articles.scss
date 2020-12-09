@@ -1,0 +1,65 @@
+#container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 40px auto;
+  padding: 0 5%;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: UNIQLO, UNIQLO PRO, UNIQLO PRO REGULAR;
+    text-transform: uppercase;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  h2 {
+    font-size: 22px;
+    letter-spacing: 0.3px;
+    font-weight: 700;
+    @media only screen and (max-width: 768px) {
+      font-size: 20px;
+    }
+  }
+  h3 {
+    font-size: 18px;
+    letter-spacing: 0.25px;
+    @media only screen and (max-width: 768px) {
+      font-size: 16px;
+    }
+  }
+  h4 {
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    @media only screen and (max-width: 768px) {
+      font-size: 12px;
+    }
+  }
+  .subheader {
+    font-size: 16px;
+    font-family: "Helvetica Neue", sans-serif;
+    letter-spacing: 0.23px;
+    font-weight: 500;
+    @media only screen and (max-width: 768px) {
+      font-size: 14px;
+    }
+  }
+  p {
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    @media only screen and (max-width: 768px) {
+      font-size: 12px;
+    }
+  }
+  div {
+    font-size: 12px;
+    letter-spacing: 0.17px;
+    @media only screen and (max-width: 768px) {
+      font-size: 10px;
+    }
+  }
+  // YOUR CSS HERE
+}
