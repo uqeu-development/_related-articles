@@ -4,6 +4,15 @@ $(document).ready(() => {
     const RELATED_ARTICLES_URL = "https://cdn.jsdelivr.net/gh/uqeu-development/_related-articles@latest/related-articles.json";
     let RELATED_ARTICLES = {};
 
+    isProdtest = () => {
+        const url = window.location.href;
+        if (url.includes('prodtest')) {
+
+            return true;
+        }
+        return false
+    }
+
     getCurrentPageId = (relatedArticles) => {
         // let url = window.location.pathname;
         let url = "uk/en/content/airism-face-mask.html" //dev purposes
@@ -20,8 +29,8 @@ $(document).ready(() => {
         return pageContentId.replace(".html", "");
     }
     getCurrentRegion = () => {
-        // const region = window.location.href;
-        const region = 'uk/en/content/airism-face-mask.html'
+        const region = window.location.href;
+        // const region = 'uk/en/content/airism-face-mask.html'
         let currentRegion = "";
 
         if (region.includes('uk/en')) {
@@ -54,8 +63,11 @@ $(document).ready(() => {
         } else {
             //trim description
             if (string.includes('.')) {
+                // return string;
                 const index = string.indexOf('.');
                 return string.substring(0, index) + ".";
+            } else {
+                return string;
             }
         }
     }
@@ -67,29 +79,63 @@ $(document).ready(() => {
 
             if (relatedArticles[i].content_id === currentId) {
                 let related = relatedArticles[i].related_articles;
+
                 if (related.length === 0) {
                     RELATED_ARTICLES_TO_SHOW = {};
                 } else {
                     related = related.split(',')
-                    for (let i = 0; i < related.length; i++) {
-                        const c = related[i].trim();
-                        let s = relatedArticles[i].server;
-                        let url = `https://www.uniqlo.com/${region}/${s}/${c}.html`
+                    for (let j = 0; j < related.length; j++) {
+                        let s = ""
+                        let img_url = "";
+                        const c = related[j].trim();
+                        relatedArticles.map((content, index) => {
+                            if (relatedArticles[index].content_id === c) {
+                                img_url = relatedArticles[index].img_url;
+                                s = relatedArticles[index].server;
+                            }
+                        })
+
+                        let url;
+                        if (s == "content") {
+
+                            if (isProdtest()) {
+                                url = `https://prodtest.uniqlo.com/${region}/${s}/${c}.html`
+                            } else {
+                                url = `https://www.uniqlo.com/${region}/${s}/${c}.html`
+                            }
+                        } else {
+                            if (isProdtest()) {
+
+                                url = `https://prodtest.uniqlo.com/${region}/${s}/${c}`
+                            } else {
+                                url = `https://www.uniqlo.com/${region}/${s}/${c}`
+                            }
+                        }
                         let response = await fetch(url);
                         let data = await response.text();
                         let doc = parser.parseFromString(data, "text/html")
-                        let articleTitle = doc.title;
+                        let articleTitle = "";
+                        try {
+                            articleTitle = doc.title;
+                        } catch (error) {
+
+                        }
                         articleTitle = trimText("title", articleTitle);
-                        let articleDescription = doc.querySelector("meta[name='description']").getAttribute("content");
+                        let articleDescription = "";
+                        try {
+                            articleDescription = doc.querySelector("meta[name='description']").getAttribute("content");
+                        } catch (error) {
+
+                        }
+
                         articleDescription = trimText("description", articleDescription);
+
 
                         RELATED_ARTICLES_TO_SHOW[c] = {
                             "article_title": articleTitle,
                             "article_description": articleDescription,
-                            "img_url": relatedArticles[i].img_url,
-                            "release_date": relatedArticles[i].release_date,
-                            "expiry_date": relatedArticles[i].expiry_date,
-                            "server": relatedArticles[i].server,
+                            "img_url": img_url,
+                            "server": s,
                             "content_id": c
                         }
                     }
@@ -129,7 +175,12 @@ $(document).ready(() => {
                     const article_description = RELATED_ARTICLES_TO_SHOW[article].article_description;
                     const article_server = RELATED_ARTICLES_TO_SHOW[article].server;
                     const article_id = RELATED_ARTICLES_TO_SHOW[article].content_id;
-                    const article_url = `https://www.uniqlo.com/${CURRENT_REGION}/${article_server}/${article_id}.html`
+                    let article_url = "";
+                    if (article_server === "content") {
+                        article_url = `https://www.uniqlo.com/${CURRENT_REGION}/${article_server}/${article_id}.html`
+                    } else {
+                        article_url = `https://www.uniqlo.com/${CURRENT_REGION}/${article_server}/${article_id}`
+                    }
                     raAnchor = document.createElement('a');
                     raAnchor.setAttribute('href', article_url)
                     raAnchor.setAttribute('target', "_blank");
@@ -183,6 +234,7 @@ $(document).ready(() => {
                         .ra-container{
                             width: 30%;
                             margin: 0 auto;
+                            color: inherit !important;
                         }
 
                         .ra-container .ra-block{
@@ -199,11 +251,12 @@ $(document).ready(() => {
                             width: 100%;
                         }
                         .ra-container .ra-block-info h4{
-                            margin-bottom: 5px;
+                            margin-bottom: 5px !important;
+                            margin-top: 0px !important;
                         }
                         .ra-container .ra-block-info p{
-                            margin-top: 0px;
-                            margin-bottom: 0px;
+                            margin-top: 0px !important;
+                            margin-bottom: 0px !important;
                             font-size: 12px !important;
                         }
 
@@ -213,7 +266,7 @@ $(document).ready(() => {
                                 
                             }
                             .ra-container{
-                                width: 80%;
+                                width: 95%;
                                 margin-bottom: 20px;
                             }
                         }
