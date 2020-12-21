@@ -1,0 +1,69 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.ra-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-top: 1px solid black;
+  margin-top: 40px;
+}
+
+.ra-container {
+  width: 30%;
+  margin: 0 auto;
+  color: inherit !important;
+}
+
+.ra-container .ra-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ra-container .ra-block-img {
+  min-width: 120px;
+  min-height: 120px;
+  max-height: 120px;
+  max-width: 120px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+}
+
+.ra-container .ra-block-img img {
+  width: 100%;
+}
+
+.ra-container .ra-block-info h4 {
+  margin-bottom: 5px !important;
+  margin-top: 0px !important;
+}
+
+.ra-container .ra-block-info p {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+@media only screen and (max-width: 800px) {
+  .ra-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .ra-container {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+}
