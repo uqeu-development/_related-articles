@@ -2,73 +2,100 @@
     {
         "content_id": "airism-face-mask",
         "server": "content",
-        "release_date": "20-Sep-20",
-        "expiry_date": "20-Nov-21",
+        "release_date": "20 September 2020",
+        "expiry_date": "20 November 2021",
         "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/airism-face-mask_thm.jpg",
         "regions": "ALL",
-        "related_articles": "3dknit, heattech-women, comfort-beauty"
+        "related_articles": "3dknit, heattech-women, knitwear-women"
     },
     {
         "content_id": "comfort-beauty",
         "server": "content",
-        "release_date": "20-Aug-20",
-        "expiry_date": "31-Jan-21",
+        "release_date": "20 August 2020",
+        "expiry_date": "31 January 2021",
         "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/comfort-beauty_thm.jpg",
         "regions": "ALL",
-        "related_articles": ""
+        "related_articles": "heattech-women, knitwear-women, 3dknit"
     },
     {
         "content_id": "3dknit",
         "server": "content",
         "release_date": "",
-        "expiry_date": "31-Jan-21",
+        "expiry_date": "31 January 2021",
         "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/3dknit_thm.jpg",
         "regions": "ALL",
-        "related_articles": ""
+        "related_articles": "knitwear-men, heattech-women, uld-women"
     },
     {
         "content_id": "jeans-women",
         "server": "content",
-        "release_date": "27-Aug-20",
-        "expiry_date": "09-Feb-21",
+        "release_date": "27 August 2020",
+        "expiry_date": "9 February 2021",
         "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/jeans-women_thm.jpg",
         "regions": "ALL",
-        "related_articles": "heattech-women, masterpiece, comfort-beauty"
+        "related_articles": "knitwear-women, 3dknit, comfort-beauty"
+    },
+    {
+        "content_id": "jeans-men",
+        "server": "content",
+        "release_date": "27 August 2020",
+        "expiry_date": "9 February 2021",
+        "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/jeans-men_thm.jpg",
+        "regions": "ALL",
+        "related_articles": "heattech-men, uld-men, knitwear-men"
     },
     {
         "content_id": "heattech-women",
         "server": "content",
         "release_date": "",
-        "expiry_date": "30-Apr-21",
-        "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/masterpiece_thm.jpg",
+        "expiry_date": "30 April 2021",
+        "img_url": "https://via.placeholder.com/200x200",
         "regions": "ALL",
-        "related_articles": ""
+        "related_articles": "3dknit, uld-women, jeans-women"
     },
     {
-        "content_id": "jeans-men",
+        "content_id": "heattech-men",
         "server": "content",
-        "release_date": "27-Aug-20",
-        "expiry_date": "09-Feb-21",
-        "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/jeans-men_thm.jpg",
+        "release_date": "",
+        "expiry_date": "",
+        "img_url": "https://via.placeholder.com/200x200",
         "regions": "ALL",
-        "related_articles": "heattech-men, masterpiece"
+        "related_articles": "uld-men, knitwear-men, airism-face-mask"
     },
     {
-        "content_id": "masterpiece",
-        "server": "pages",
-        "release_date": "17-Aug-20",
+        "content_id": "uld-women",
+        "server": "content",
+        "release_date": "",
         "expiry_date": "",
-        "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/masterpiece_thm.jpg",
+        "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/uld-women_thm.jpg",
         "regions": "ALL",
-        "related_articles": ""
+        "related_articles": "knitwear-women, jeans-women, heattech-women"
     },
     {
         "content_id": "uld-men",
         "server": "content",
         "release_date": "",
         "expiry_date": "",
-        "img_url": "",
-        "regions": "",
-        "related_articles": ""
+        "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/uld-men_thm.jpg",
+        "regions": "ALL",
+        "related_articles": "knitwear-men, jeans-men, heattech-men"
+    },
+    {
+        "content_id": "knitwear-women",
+        "server": "content",
+        "release_date": "",
+        "expiry_date": "",
+        "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/knitwear-women_thm.jpg",
+        "regions": "ALL",
+        "related_articles": "heattech-women, jeans-women, uld-women"
+    },
+    {
+        "content_id": "knitwear-men",
+        "server": "content",
+        "release_date": "",
+        "expiry_date": "",
+        "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/knitwear-men_thm.jpg",
+        "regions": "ALL",
+        "related_articles": "heattech-men, jeans-men, uld-women"
     }
 ]

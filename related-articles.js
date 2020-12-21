@@ -14,8 +14,8 @@ $(document).ready(() => {
     }
 
     getCurrentPageId = (relatedArticles) => {
-        // let url = window.location.pathname;
-        let url = "uk/en/content/airism-face-mask.html" //dev purposes
+        let url = window.location.pathname;
+        // let url = "uk/en/content/airism-face-mask.html" //dev purposes
         url = url.substring(url.lastIndexOf('/') + 1);
 
         let pageContentId = ""
@@ -30,7 +30,7 @@ $(document).ready(() => {
     }
     getCurrentRegion = () => {
         const region = window.location.href;
-        // const region = 'uk/en/content/airism-face-mask.html'
+        // const region = 'es/es/content/jeans-women.html' //dev purposes
         let currentRegion = "";
 
         if (region.includes('uk/en')) {
@@ -61,13 +61,10 @@ $(document).ready(() => {
                 return string;
             }
         } else {
-            //trim description
-            if (string.includes('.')) {
-                // return string;
-                const index = string.indexOf('.');
-                return string.substring(0, index) + ".";
+            if (string.length > 0) {
+                return string.substring(0, string.length / 2.5) + "... "
             } else {
-                return string;
+                return ""
             }
         }
     }
@@ -205,7 +202,7 @@ $(document).ready(() => {
                     const raBlockInfo = document.createElement('div');
                     raBlockInfo.setAttribute('class', 'ra-block-info');
 
-                    const raBlockTitle = document.createElement('h4');
+                    const raBlockTitle = document.createElement('h3');
                     raBlockTitle.innerHTML = article_title;
 
                     const raBlockDescription = document.createElement('p');
@@ -219,60 +216,6 @@ $(document).ready(() => {
                     raAnchor.appendChild(raContainer);
                     related_articles_container.appendChild(raAnchor);
 
-                    //css
-                    const ra_styles = document.createElement('style');
-                    ra_styles.innerHTML = `
-                        .ra-section{
-                            display: flex;
-                            justify-content: space-between;
-                            width: 100%;
-                            padding-top: 40px;
-                            padding-bottom: 40px;
-                            border-top: 1px solid black;
-                            margin-top: 40px;
-                        }
-                        .ra-container{
-                            width: 30%;
-                            margin: 0 auto;
-                            color: inherit !important;
-                        }
-
-                        .ra-container .ra-block{
-                            display: flex;
-                        }
-                        .ra-container .ra-block-img {
-                            min-width: 75px;
-                            min-height: 75px;
-                            max-height: 75px;
-                            max-width: 75px;
-                            margin-right: 10px;
-                        }
-                        .ra-container .ra-block-img img{
-                            width: 100%;
-                        }
-                        .ra-container .ra-block-info h4{
-                            margin-bottom: 5px !important;
-                            margin-top: 0px !important;
-                        }
-                        .ra-container .ra-block-info p{
-                            margin-top: 0px !important;
-                            margin-bottom: 0px !important;
-                            font-size: 12px !important;
-                        }
-
-                        @media only screen and (max-width: 800px){
-                            .ra-section{
-                                flex-direction: column;
-                                
-                            }
-                            .ra-container{
-                                width: 95%;
-                                margin-bottom: 20px;
-                            }
-                        }
-                    `
-
-                    related_articles_container.appendChild(ra_styles)
                 })
                 const container = document.getElementById('container');
                 container.appendChild(related_articles_container)
