@@ -11,7 +11,7 @@
    "server": "content",
    "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/comfort-beauty_thm.jpg",
    "regions": "ALL",
-   "related_articles": "heattech-women, jeans-women,linen, airism-face-mask"
+   "related_articles": "ss21-catalogue, jeans-women,linen, airism-face-mask"
  },
  {
    "content_id": "3dknit",
@@ -82,5 +82,12 @@
    "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/linen.jpg",
    "regions": "ALL",
    "related_articles": "comfort-beauty, heattech-women, jeans-women"
+ },
+ {
+   "content_id": "ss21-catalogue",
+   "server": "content",
+   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/ss21.jpg",
+   "regions": "ALL",
+   "related_articles": "linen, jeans-women, comfort-beauty, airism-face-mask"
  }
 ]
