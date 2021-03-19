@@ -1,93 +1,121 @@
 [
- {
-   "content_id": "airism-face-mask",
-   "server": "content",
-   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/airism-face-mask.jpg",
-   "regions": "ALL",
-   "related_articles": "3dknit, heattech-women, knitwear-women"
- },
- {
-   "content_id": "comfort-beauty",
-   "server": "content",
-   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/comfort-beauty_thm.jpg",
-   "regions": "ALL",
-   "related_articles": "ss21-catalogue, jeans-women,linen, airism-face-mask"
- },
- {
-   "content_id": "3dknit",
-   "server": "content",
-   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/3dknit_thm.jpg",
-   "regions": "ALL",
-   "related_articles": "knitwear-men, heattech-women, uld-women"
- },
- {
-   "content_id": "jeans-women",
-   "server": "content",
-   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/jeans.jpg",
-   "regions": "ALL",
-   "related_articles": "knitwear-women, 3dknit, comfort-beauty"
- },
- {
-   "content_id": "jeans-men",
-   "server": "content",
-   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/jeans-men_thm.jpg",
-   "regions": "ALL",
-   "related_articles": "heattech-men, uld-men, knitwear-men"
- },
- {
-   "content_id": "heattech-women",
-   "server": "content",
-   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/heattech.jpg",
-   "regions": "ALL",
-   "related_articles": "3dknit, uld-women, jeans-women"
- },
- {
-   "content_id": "heattech-men",
-   "server": "content",
-   "img_url": "https://via.placeholder.com/200x200",
-   "regions": "ALL",
-   "related_articles": "uld-men, knitwear-men, airism-face-mask"
- },
- {
-   "content_id": "uld-women",
-   "server": "content",
-   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/uld-women_thm.jpg",
-   "regions": "ALL",
-   "related_articles": "knitwear-women, jeans-women, heattech-women"
- },
- {
-   "content_id": "uld-men",
-   "server": "content",
-   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/uld-men_thm.jpg",
-   "regions": "ALL",
-   "related_articles": "knitwear-men, jeans-men, heattech-men"
- },
- {
-   "content_id": "knitwear-women",
-   "server": "content",
-   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/knitwear-women_thm.jpg",
-   "regions": "ALL",
-   "related_articles": "heattech-women, jeans-women, uld-women"
- },
- {
-   "content_id": "knitwear-men",
-   "server": "content",
-   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/knitwear-men_thm.jpg",
-   "regions": "ALL",
-   "related_articles": "heattech-men, jeans-men, uld-women"
- },
- {
-   "content_id": "linen",
-   "server": "content",
-   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/linen.jpg",
-   "regions": "ALL",
-   "related_articles": "comfort-beauty, heattech-women, jeans-women"
- },
- {
-   "content_id": "ss21-catalogue",
-   "server": "content",
-   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/ss21.jpg",
-   "regions": "ALL",
-   "related_articles": "linen, jeans-women, comfort-beauty, airism-face-mask"
- }
+  {
+    "content_id": "airism-face-mask",
+    "server": "content",
+    "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/airism-face-mask.jpg",
+    "regions": "ALL",
+    "related_articles": "3dknit, heattech-women, knitwear-women"
+  },
+  {
+    "content_id": "comfort-beauty",
+    "server": "content",
+    "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/comfort-beauty_thm.jpg",
+    "regions": "ALL",
+    "related_articles": "ss21-catalogue, jeans-women,linen, airism-face-mask"
+  },
+  {
+    "content_id": "3dknit",
+    "server": "content",
+    "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/3dknit_thm.jpg",
+    "regions": "ALL",
+    "related_articles": "knitwear-men, heattech-women, uld-women"
+  },
+  {
+    "content_id": "jeans-women",
+    "server": "content",
+    "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/jeans.jpg",
+    "regions": "ALL",
+    "related_articles": "knitwear-women, 3dknit, comfort-beauty"
+  },
+  {
+    "content_id": "jeans-men",
+    "server": "content",
+    "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/jeans-men_thm.jpg",
+    "regions": "ALL",
+    "related_articles": "heattech-men, uld-men, knitwear-men"
+  },
+  {
+    "content_id": "heattech-women",
+    "server": "content",
+    "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/heattech.jpg",
+    "regions": "ALL",
+    "related_articles": "3dknit, uld-women, jeans-women"
+  },
+  {
+    "content_id": "heattech-men",
+    "server": "content",
+    "img_url": "https://via.placeholder.com/200x200",
+    "regions": "ALL",
+    "related_articles": "uld-men, knitwear-men, airism-face-mask"
+  },
+  {
+    "content_id": "uld-women",
+    "server": "content",
+    "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/uld-women_thm.jpg",
+    "regions": "ALL",
+    "related_articles": "knitwear-women, jeans-women, heattech-women"
+  },
+  {
+    "content_id": "uld-men",
+    "server": "content",
+    "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/uld-men_thm.jpg",
+    "regions": "ALL",
+    "related_articles": "knitwear-men, jeans-men, heattech-men"
+  },
+  {
+    "content_id": "knitwear-women",
+    "server": "content",
+    "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/knitwear-women_thm.jpg",
+    "regions": "ALL",
+    "related_articles": "heattech-women, jeans-women, uld-women"
+  },
+  {
+    "content_id": "knitwear-men",
+    "server": "content",
+    "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/knitwear-men_thm.jpg",
+    "regions": "ALL",
+    "related_articles": "heattech-men, jeans-men, uld-women"
+  },
+  {
+    "content_id": "linen",
+    "server": "content",
+    "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/linen.jpg",
+    "regions": "ALL",
+    "related_articles": "comfort-beauty, heattech-women, jeans-women"
+  },
+  {
+    "content_id": "ss21-catalogue",
+    "server": "content",
+    "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/ss21.jpg",
+    "regions": "ALL",
+    "related_articles": "linen, jeans-women, comfort-beauty, airism-face-mask"
+  },
+  {
+    "content_id": "down-recycle",
+    "server": "content",
+    "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/down-recycle.jpg",
+    "regions": "ALL",
+    "related_articles": "charity-water, blue-cycle-jeans, plastic-reduction"
+  },
+  {
+    "content_id": "blue-cycle-jeans",
+    "server": "content",
+    "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/blue-cycle-jeans.jpg",
+    "regions": "ALL",
+    "related_articles": "down-recycle, charity-water, plastic-reduction"
+  },
+  {
+    "content_id": "plastic-reduction",
+    "server": "content",
+    "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/plastic-reduction.jpg",
+    "regions": "ALL",
+    "related_articles": "down-recycle, blue-cycle-jeans, charity-water"
+  },
+  {
+    "content_id": "charity-water",
+    "server": "content",
+    "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/charity-water.jpg",
+    "regions": "ALL",
+    "related_articles": "down-recycle, blue-cycle-jeans, plastic-reduction"
+  }
 ]
