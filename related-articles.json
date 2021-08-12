@@ -21,20 +21,6 @@
    "related_articles": "knitwear-men, heattech-women, uld-women"
  },
  {
-   "content_id": "jeans-women",
-   "server": "content",
-   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/jeans.jpg",
-   "regions": "ALL",
-   "related_articles": "knitwear-women, 3dknit, comfort-beauty"
- },
- {
-   "content_id": "jeans-men",
-   "server": "content",
-   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/jeans-men_thm.jpg",
-   "regions": "ALL",
-   "related_articles": "heattech-men, uld-men, knitwear-men"
- },
- {
    "content_id": "heattech-women",
    "server": "content",
    "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/heattech.jpg",
@@ -91,24 +77,17 @@
    "related_articles": "linen, jeans-women, comfort-beauty, airism-face-mask"
  },
  {
-   "content_id": "suw2021-women",
+   "content_id": "suw-women",
    "server": "content",
-   "img_url": "",
-   "regions": "",
+   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/relatedarticles/w-suw-thm.jpg",
+   "regions": "ALL",
    "related_articles": ""
  },
  {
-   "content_id": "suw2021-men",
+   "content_id": "suw-men",
    "server": "content",
-   "img_url": "",
-   "regions": "",
-   "related_articles": ""
- },
- {
-   "content_id": "suw2021-kids",
-   "server": "content",
-   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/suw2021-kids-thm.jpg",
-   "regions": "",
+   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/relatedarticles/m-suw-thm.jpg",
+   "regions": "ALL",
    "related_articles": ""
  },
  {
@@ -156,7 +135,7 @@
  {
    "content_id": "uv-cut-women",
    "server": "content",
-   "img_url": "https://via.placeholder.com/200x200",
+   "img_url": "",
    "regions": "ALL",
    "related_articles": ""
  },
@@ -164,14 +143,56 @@
    "content_id": "uv-cut-men",
    "server": "content",
    "img_url": "",
-   "regions": "",
+   "regions": "ALL",
    "related_articles": ""
  },
  {
    "content_id": "uv-cut-kidsandbabies",
    "server": "content",
    "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/uvcut2021-kids-thm.jpg",
-   "regions": "",
+   "regions": "ALL",
    "related_articles": ""
+ },
+ {
+   "content_id": "Summer-essentials",
+   "server": "content",
+   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/summer-essentials.jpg",
+   "regions": "ALL",
+   "related_articles": "sustainability-home, ss21-catalogue, great-outdoors"
+ },
+ {
+   "content_id": "ultra-light-trousers",
+   "server": "content",
+   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/ultra-light-trousers.jpg",
+   "regions": "ALL",
+   "related_articles": "uld-men, jeans-men, ss21-catalogue"
+ },
+ {
+   "content_id": "jeans-women",
+   "server": "content",
+   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/relatedarticles/w-jeans-fw21-thm.jpg",
+   "regions": "ALL",
+   "related_articles": "blue-cycle-jeans, backtowork-women, suw-women"
+ },
+ {
+   "content_id": "jeans-men",
+   "server": "content",
+   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/relatedarticles/m-jeans-fw21-thm.jpg",
+   "regions": "ALL",
+   "related_articles": "blue-cycle-jeans, backtowork-men, suw-men"
+ },
+ {
+   "content_id": "backtowork-women",
+   "server": "content",
+   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/relatedarticles/w-back-to-work-thm.jpg",
+   "regions": "ALL",
+   "related_articles": "jeans-women, suw-women"
+ },
+ {
+   "content_id": "backtowork-men",
+   "server": "content",
+   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/relatedarticles/m-back-to-work-thm.jpg",
+   "regions": "ALL",
+   "related_articles": "jeans-men, suw-women"
  }
 ]
