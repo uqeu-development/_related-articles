@@ -35,20 +35,6 @@
    "related_articles": "uld-men, knitwear-men, airism-face-mask"
  },
  {
-   "content_id": "uld-women",
-   "server": "content",
-   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/uld-women_thm.jpg",
-   "regions": "ALL",
-   "related_articles": "knitwear-women, jeans-women, heattech-women"
- },
- {
-   "content_id": "uld-men",
-   "server": "content",
-   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/uld-men_thm.jpg",
-   "regions": "ALL",
-   "related_articles": "knitwear-men, jeans-men, heattech-men"
- },
- {
    "content_id": "knitwear-women",
    "server": "content",
    "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/knitwear-women_thm.jpg",
@@ -77,20 +63,6 @@
    "related_articles": "linen, jeans-women, comfort-beauty, airism-face-mask"
  },
  {
-   "content_id": "suw-women",
-   "server": "content",
-   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/relatedarticles/w-suw-thm.jpg",
-   "regions": "ALL",
-   "related_articles": ""
- },
- {
-   "content_id": "suw-men",
-   "server": "content",
-   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/relatedarticles/m-suw-thm.jpg",
-   "regions": "ALL",
-   "related_articles": ""
- },
- {
    "content_id": "down-recycle",
    "server": "content",
    "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/down-recycle.jpg",
@@ -117,20 +89,6 @@
    "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/charity-water.jpg",
    "regions": "ALL",
    "related_articles": "down-recycle, blue-cycle-jeans, plastic-reduction"
- },
- {
-   "content_id": "kidsandbaby-kids",
-   "server": "content",
-   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/kidsandbaby-kids-thm.jpg",
-   "regions": "ALL",
-   "related_articles": "uv-cut-kidsandbabies, ss21-catalogue, suw2021-kids"
- },
- {
-   "content_id": "kidsandbaby-baby",
-   "server": "content",
-   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/kidsandbaby-baby-thm.jpg",
-   "regions": "ALL",
-   "related_articles": "uv-cut-kidsandbabies, ss21-catalogue, suw2021-kids"
  },
  {
    "content_id": "uv-cut-women",
@@ -186,13 +144,104 @@
    "server": "content",
    "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/relatedarticles/w-back-to-work-thm.jpg",
    "regions": "ALL",
-   "related_articles": "jeans-women, suw-women"
+   "related_articles": "jeans-women, knitwear-women, uld-women"
  },
  {
    "content_id": "backtowork-men",
    "server": "content",
    "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/relatedarticles/m-back-to-work-thm.jpg",
    "regions": "ALL",
-   "related_articles": "jeans-men, suw-women"
+   "related_articles": "jeans-men, knitwear-men, uld-men"
+ },
+ {
+   "content_id": "suw-women",
+   "server": "content",
+   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/relatedarticles/w-suw-thm.jpg",
+   "regions": "ALL",
+   "related_articles": "jeans-women, uld-women, backtowork-women"
+ },
+ {
+   "content_id": "suw-men",
+   "server": "content",
+   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/relatedarticles/m-suw-thm.jpg",
+   "regions": "ALL",
+   "related_articles": "jeans-men, uld-men, backtowork-men"
+ },
+ {
+   "content_id": "suw-kids",
+   "server": "content",
+   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2021/content-pages/relatedarticles/k-suw-thm.jpg",
+   "regions": "ALL",
+   "related_articles": "kidsandbaby-kids, kidsandbaby-baby, fleece-kids"
+ },
+ {
+   "content_id": "uld-women",
+   "server": "content",
+   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/uld-women_thm.jpg",
+   "regions": "ALL",
+   "related_articles": "jeans-women, knitwear-women, fleece-women"
+ },
+ {
+   "content_id": "uld-men",
+   "server": "content",
+   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/uld-men_thm.jpg",
+   "regions": "ALL",
+   "related_articles": "jeans-men, knitwear-men, fleece-men"
+ },
+ {
+   "content_id": "dry-ex-recycled",
+   "server": "content",
+   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/dry-ex-recycled_thm.jpg",
+   "regions": "ALL",
+   "related_articles": ""
+ },
+ {
+   "content_id": "kidsandbaby-kids",
+   "server": "content",
+   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/kidsandbaby-kids-thm.jpg",
+   "regions": "ALL",
+   "related_articles": "suw-kids, fleece-kids, suw-kids"
+ },
+ {
+   "content_id": "kidsandbaby-baby",
+   "server": "content",
+   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/kidsandbaby-baby-thm.jpg",
+   "regions": "ALL",
+   "related_articles": "suw-kids, fleece-kids, suw-kids"
+ },
+ {
+   "content_id": "knitwear-women",
+   "server": "content",
+   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/knitwear-women-thm.jpg",
+   "regions": "ALL",
+   "related_articles": "uld-women, fleece-women, jeans-women"
+ },
+ {
+   "content_id": "knitwear-men",
+   "server": "content",
+   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/knitwear-men-thm.jpg",
+   "regions": "ALL",
+   "related_articles": "uld-men, fleece-women, jeans-men"
+ },
+ {
+   "content_id": "fleece-women",
+   "server": "content",
+   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/fleece-women-thm.jpg",
+   "regions": "ALL",
+   "related_articles": "dry-ex-recycled, knitwear-women, uld-women"
+ },
+ {
+   "content_id": "fleece-men",
+   "server": "content",
+   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/fleece-men-thm.jpg",
+   "regions": "ALL",
+   "related_articles": "dry-ex-recycled, knitwear-men, uld-men"
+ },
+ {
+   "content_id": "fleece-kids",
+   "server": "content",
+   "img_url": "https://image.uniqlo.com/UQ/ST3/eu/imagesother/2020/content-pages/relatedlinks/fleece-kids-thm.jpg",
+   "regions": "ALL",
+   "related_articles": "dry-ex-recycled, kidsandbaby-kids, suw-kids"
  }
 ]
